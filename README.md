@@ -60,9 +60,25 @@ The static output lands in `./out` after `pnpm build`. The expected
 deploy targets are:
 
 1. **Cloudflare Pages** — project `w3a-site`, alias to `w3a.foundation`.
-   Build command `pnpm build`, output directory `out`.
+   Build command `pnpm build`, output directory `out`. Wired in
+   `.github/workflows/deploy.yml`; auto-deploys on push to `main`.
 2. **Container image** — `ghcr.io/hanzoai/spa` base, served behind
    `hanzoai/ingress`. See `Dockerfile`.
+
+### Required CI secrets
+
+The deploy step is gated on `CLOUDFLARE_API_TOKEN` being set — without
+the secret the workflow still builds (verifies the static export) but
+skips the deploy. Set on the repo with:
+
+```sh
+gh secret set CLOUDFLARE_API_TOKEN  --repo w3a-foundation/site --body '<token>'
+gh secret set CLOUDFLARE_ACCOUNT_ID --repo w3a-foundation/site --body '<account-id>'
+```
+
+The token must have `Pages:Edit` permission for the `w3a-site`
+project. Use a scoped API token from the Cloudflare dashboard, not the
+global API key.
 
 ## Brand discipline
 
