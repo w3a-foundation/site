@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.turbo
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+public/papers/Web3_Alliance.pdf

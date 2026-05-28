@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+/*
+ * W3A brand tokens — Eames-minimal, black + grey, single accent.
+ * Source of truth for theme. Mirrors the Lux/luxcover serif-on-paper
+ * register without inheriting the Lux wordmark or palette.
+ */
+@theme {
+  --color-paper: #ffffff;
+  --color-ink: #0a0a0a;
+  --color-ink-soft: #1a1a1a;
+  --color-mute-900: #111111;
+  --color-mute-800: #1f1f1f;
+  --color-mute-700: #2a2a2a;
+  --color-mute-500: #6b6b6b;
+  --color-mute-400: #8a8a8a;
+  --color-mute-300: #c5c5c5;
+  --color-mute-200: #e3e3e3;
+  --color-mute-100: #f3f3f3;
+  --color-accent: #c8a464;
+
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, 'Cascadia Mono', monospace;
+
+  --container-page: 76rem;
+}
+
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Letterpress utilities — minimal, matched to the Lux/luxcover register. */
+.smallcaps {
+  font-variant: all-small-caps;
+  letter-spacing: 0.08em;
+}
+
+.hairline {
+  border-color: var(--color-mute-200);
+}
+
+.serif {
+  font-family: var(--font-serif);
+}
