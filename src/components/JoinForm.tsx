@@ -363,7 +363,7 @@ export function JoinForm() {
         <button
           type="submit"
           disabled={status === 'submitting'}
-          className="inline-flex items-center rounded-md bg-[var(--color-ink)] px-6 py-3 text-sm font-medium text-[var(--color-paper)] transition hover:bg-[var(--color-mute-800)] disabled:cursor-not-allowed disabled:opacity-60"
+          className="inline-flex items-center rounded-md bg-neutral-900 px-6 py-3 text-sm font-medium text-white transition hover:bg-[var(--color-mute-800)] disabled:cursor-not-allowed disabled:opacity-60"
         >
           {status === 'submitting' ? 'Submitting…' : 'Submit application'}
         </button>

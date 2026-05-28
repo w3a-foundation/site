@@ -179,7 +179,7 @@ export default function AboutPage() {
       <div className="mt-16 flex flex-wrap gap-3 border-t border-[var(--color-mute-200)] pt-10">
         <Link
           href="/papers"
-          className="inline-flex items-center rounded-md bg-[var(--color-ink)] px-5 py-3 text-sm font-medium text-[var(--color-paper)] transition hover:bg-[var(--color-mute-800)]"
+          className="inline-flex items-center rounded-md bg-neutral-900 px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--color-mute-800)]"
         >
           Read the full white paper
         </Link>

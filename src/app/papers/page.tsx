@@ -74,7 +74,7 @@ export default function PapersPage() {
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href={p.href}
-                className="inline-flex items-center rounded-md bg-[var(--color-ink)] px-5 py-3 text-sm font-medium text-[var(--color-paper)] transition hover:bg-[var(--color-mute-800)]"
+                className="inline-flex items-center rounded-md bg-neutral-900 px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--color-mute-800)]"
               >
                 Download PDF
               </a>

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { foundingMembers, bankingMembers } from '@/lib/members';
+import { HeroAnimated } from '@/components/HeroAnimated';
 
 const valueChain = [
   {
@@ -97,48 +98,8 @@ const capabilitySurfaces = [
 export default function HomePage() {
   return (
     <>
-      {/* Hero ----------------------------------------------------------- */}
-      <section className="border-b border-[var(--color-mute-200)]">
-        <div className="mx-auto max-w-[var(--container-page)] px-6 py-24 md:py-32">
-          <p className="text-xs uppercase tracking-[0.22em] text-[var(--color-mute-500)]">
-            Web3 Industrial Alliance
-          </p>
-          <h1 className="mt-6 max-w-3xl font-serif text-4xl leading-[1.05] tracking-tight text-[var(--color-ink)] md:text-6xl">
-            Post-quantum financial services, engineered as a single
-            federation from day one.
-          </h1>
-          <p className="mt-6 max-w-2xl text-lg text-[var(--color-mute-700)]">
-            The Web3 Alliance is a coordinated network of legally
-            independent businesses operating under shared post-quantum-
-            secure infrastructure, shared IP, distribution, capital, and
-            a single coordination layer — assembling the horizontal-
-            integration shape of the largest incumbent franchises with
-            a materially better cost stack, a categorically better
-            privacy model, and a security posture matched to the NIST
-            CNSA-2.0 PQ-by-2035 horizon.
-          </p>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <Link
-              href="/join"
-              className="inline-flex items-center rounded-md bg-[var(--color-ink)] px-5 py-3 text-sm font-medium text-[var(--color-paper)] transition hover:bg-[var(--color-mute-800)]"
-            >
-              Apply for membership
-            </Link>
-            <Link
-              href="/about"
-              className="inline-flex items-center rounded-md border border-[var(--color-mute-300)] px-5 py-3 text-sm font-medium text-[var(--color-ink)] transition hover:bg-[var(--color-mute-100)]"
-            >
-              Read the thesis
-            </Link>
-            <Link
-              href="/papers"
-              className="inline-flex items-center rounded-md border border-[var(--color-mute-300)] px-5 py-3 text-sm font-medium text-[var(--color-ink)] transition hover:bg-[var(--color-mute-100)]"
-            >
-              White paper
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* Hero — animated (framer-motion staggered word rise) ----------- */}
+      <HeroAnimated />
 
       {/* Six-layer value chain ----------------------------------------- */}
       <section className="border-b border-[var(--color-mute-200)]">
@@ -425,7 +386,7 @@ export default function HomePage() {
           <div className="mt-8 flex justify-center gap-3">
             <Link
               href="/join"
-              className="inline-flex items-center rounded-md bg-[var(--color-ink)] px-5 py-3 text-sm font-medium text-[var(--color-paper)] transition hover:bg-[var(--color-mute-800)]"
+              className="inline-flex items-center rounded-md bg-neutral-900 px-5 py-3 text-sm font-medium text-white transition hover:bg-[var(--color-mute-800)]"
             >
               Apply for membership
             </Link>
