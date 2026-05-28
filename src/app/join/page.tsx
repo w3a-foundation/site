@@ -5,7 +5,7 @@ import { brand } from '@/lib/brand';
 export const metadata: Metadata = {
   title: 'Join',
   description:
-    'Apply to join the Web3 Industrial Alliance. Membership is open to chartered banks, money transmitters, broker-dealers, fund managers, crypto-asset service providers, chain teams, and infrastructure operators.',
+    'Apply to join the Web3 Alliance. Membership is open to chartered banks, money transmitters, broker-dealers, fund managers, crypto-asset service providers, chain teams, and infrastructure operators.',
 };
 
 export default function JoinPage() {

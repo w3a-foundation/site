@@ -59,7 +59,7 @@ export function HeroAnimated() {
           animate="show"
           className="text-xs uppercase tracking-[0.22em] text-[var(--color-mute-500)]"
         >
-          Web3 Industrial Alliance
+          Web3 Alliance
         </motion.p>
 
         <motion.h1

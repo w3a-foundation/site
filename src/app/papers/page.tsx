@@ -20,14 +20,14 @@ interface Paper {
 const papers: Paper[] = [
   {
     key: 'w3a-thesis',
-    title: 'The Web3 Industrial Alliance',
+    title: 'The Web3 Alliance',
     subtitle:
       'A Compounding Network of Infrastructure, IP, Distribution, Liquidity, Banking Access, and Capital — Engineered From Day One',
     author: 'Hunter Dupont, Managing Partner & Chief Economist',
     date: '2026',
     href: '/papers/Web3_Alliance.pdf',
     abstract:
-      'We propose a web3 industrial alliance designed to control the full value chain of digital economies — infrastructure, intellectual property, distribution, liquidity, banking access, and capital — operating as a post-quantum financial services ecosystem and global federation of licensed and regulated banks, money transmitters, acquiring banks, issuing banks, broker-dealers, alternative trading systems, transfer agents, fund managers, and crypto-asset service providers.',
+      'We propose a web3 alliance designed to control the full value chain of digital economies — infrastructure, intellectual property, distribution, liquidity, banking access, and capital — operating as a post-quantum financial services ecosystem and global federation of licensed and regulated banks, money transmitters, acquiring banks, issuing banks, broker-dealers, alternative trading systems, transfer agents, fund managers, and crypto-asset service providers.',
     status: 'published',
   },
 ];

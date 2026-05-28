@@ -5,7 +5,7 @@ import { foundingMembers, bankingMembers, type Member } from '@/lib/members';
 export const metadata: Metadata = {
   title: 'Members',
   description:
-    'The founding chains, operating companies, and regulated banking, brokerage, and payments members of the Web3 Industrial Alliance.',
+    'The founding chains, operating companies, and regulated banking, brokerage, and payments members of the Web3 Alliance.',
 };
 
 function MemberCard({ m }: { m: Member }) {

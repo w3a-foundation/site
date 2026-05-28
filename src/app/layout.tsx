@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: `%s · ${brand.name}`,
   },
   description:
-    'The Web3 Industrial Alliance: a coordinated network of legally independent businesses operating under shared post-quantum-secure infrastructure, shared IP, distribution, capital, and a single coordination layer.',
+    'The Web3 Alliance: a coordinated network of legally independent businesses operating under shared post-quantum-secure infrastructure, shared IP, distribution, capital, and a single coordination layer.',
   applicationName: brand.name,
   authors: [{ name: brand.name }],
   openGraph: {

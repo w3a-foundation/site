@@ -45,6 +45,37 @@
   }
 }
 
+/* Wordmark cross-fade — JS sets data-swapped after a short delay.
+ * Boot state: full=1, short=0.
+ * Swapped:    full=0, short=1.
+ * Hover (with swap active): full=1, short=0. */
+.w3a-full,
+.w3a-short {
+  white-space: nowrap;
+  transition: opacity 0.4s ease-out;
+}
+
+.w3a-swap[data-swapped='false'] .w3a-full {
+  opacity: 1;
+}
+.w3a-swap[data-swapped='false'] .w3a-short {
+  opacity: 0;
+}
+.w3a-swap[data-swapped='true'] .w3a-full {
+  opacity: 0;
+}
+.w3a-swap[data-swapped='true'] .w3a-short {
+  opacity: 1;
+}
+.w3a-swap[data-swapped='true']:hover .w3a-full,
+.w3a-swap[data-swapped='true']:focus-within .w3a-full {
+  opacity: 1;
+}
+.w3a-swap[data-swapped='true']:hover .w3a-short,
+.w3a-swap[data-swapped='true']:focus-within .w3a-short {
+  opacity: 0;
+}
+
 ::selection {
   background: var(--color-ink);
   color: var(--color-paper);
