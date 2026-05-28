@@ -206,6 +206,45 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 90% reduction headline --------------------------------------- */}
+      <section className="border-b border-[var(--color-mute-200)] bg-neutral-900 text-white">
+        <div className="mx-auto max-w-[var(--container-page)] px-6 py-20">
+          <div className="grid gap-12 md:grid-cols-12 md:items-end">
+            <div className="md:col-span-5">
+              <div className="font-serif text-7xl font-medium tracking-tight md:text-8xl">
+                90%
+              </div>
+              <div className="mt-2 text-sm uppercase tracking-[0.16em] text-neutral-400">
+                reduction in headcount &amp; cost
+              </div>
+            </div>
+            <div className="md:col-span-7">
+              <h2 className="font-serif text-2xl tracking-tight md:text-3xl">
+                Adopt the W3A stack and run regulated PQ finance with a 10× smaller team and a 10× smaller cost base.
+              </h2>
+              <p className="mt-4 text-neutral-300">
+                One substrate replaces the matching engine, custody
+                vault, transfer-agent ledger, reconciliation team,
+                compliance overlay, AML stack, payment-rails layer, and
+                FHE-confidential analytics that a comparable incumbent
+                holds across dozens of vendors and hundreds of FTEs.
+                Vertically integrated. Post-quantum by construction.
+                Operated by a federation of licensed members, not a
+                single Delaware corporation.
+              </p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link
+                  href="/case-studies"
+                  className="inline-flex items-center rounded-md border border-neutral-700 bg-neutral-800 px-4 py-2 text-sm font-medium text-white transition hover:bg-neutral-700"
+                >
+                  See case studies →
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Eight licensed capability surfaces ---------------------------- */}
       <section className="border-b border-[var(--color-mute-200)]">
         <div className="mx-auto max-w-[var(--container-page)] px-6 py-20">

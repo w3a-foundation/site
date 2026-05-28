@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <title>W3A</title>
+  <desc>Web3 Alliance — ring of thirteen dots.</desc>
+  <circle cx="16.000" cy="3.000" r="1.6" fill="currentColor"/>
+  <circle cx="22.041" cy="4.489" r="1.6" fill="currentColor"/>
+  <circle cx="26.699" cy="8.615" r="1.6" fill="currentColor"/>
+  <circle cx="28.905" cy="14.433" r="1.6" fill="currentColor"/>
+  <circle cx="28.155" cy="20.610" r="1.6" fill="currentColor"/>
+  <circle cx="24.621" cy="25.731" r="1.6" fill="currentColor"/>
+  <circle cx="19.111" cy="28.622" r="1.6" fill="currentColor"/>
+  <circle cx="12.889" cy="28.622" r="1.6" fill="currentColor"/>
+  <circle cx="7.379" cy="25.731" r="1.6" fill="currentColor"/>
+  <circle cx="3.845" cy="20.610" r="1.6" fill="currentColor"/>
+  <circle cx="3.095" cy="14.433" r="1.6" fill="currentColor"/>
+  <circle cx="5.301" cy="8.615" r="1.6" fill="currentColor"/>
+  <circle cx="9.959" cy="4.489" r="1.6" fill="currentColor"/>
+</svg>

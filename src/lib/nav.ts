@@ -11,6 +11,7 @@ export const primaryNav: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'About', href: '/about' },
   { label: 'Members', href: '/members' },
+  { label: 'Case studies', href: '/case-studies' },
   { label: 'Papers', href: '/papers' },
   { label: 'Docs', href: '/docs' },
   { label: 'Join', href: '/join' },
@@ -19,6 +20,7 @@ export const primaryNav: NavItem[] = [
 export const footerNav: NavItem[] = [
   { label: 'About', href: '/about' },
   { label: 'Members', href: '/members' },
+  { label: 'Case studies', href: '/case-studies' },
   { label: 'Papers', href: '/papers' },
   { label: 'Docs', href: '/docs' },
   { label: 'Join', href: '/join' },
@@ -30,6 +32,6 @@ export interface SocialLink {
 }
 
 export const socialLinks: SocialLink[] = [
-  { label: 'GitHub', href: 'https://github.com/osagebrothers/w3a-site' },
+  { label: 'GitHub', href: 'https://github.com/w3a-foundation' },
   { label: 'Email', href: 'mailto:hello@w3a.foundation' },
 ];
